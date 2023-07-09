@@ -17,7 +17,8 @@ TS
 
 ```typescript
 //v4 or v5/static style
-import { parseEconItem } from "@piman51277/fast-format";
+import Format from "@piman51277/fast-format";
+const { parseEconItem } = Format;
 
 //v5 style
 import { FastSchema } from "@piman51277/fast-format";
