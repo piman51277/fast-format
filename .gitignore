@@ -1,0 +1,7 @@
+# deps and build artifacts
+dist
+node_modules
+.vscode
+
+# profiling artifacts
+*.cpuprofile

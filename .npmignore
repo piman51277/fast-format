@@ -1,0 +1,10 @@
+.vscode
+node_modules/
+src/
+testcases/
+.editorconfig
+.eslintrc.json
+.gitignore
+.prettierrc
+.prettierignore
+

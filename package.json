@@ -1,0 +1,25 @@
+{
+  "name": "@piman51277/fast-format",
+  "version": "1.0.0",
+  "description": "A faster implementation of @danocmx's static node-tf2-item-format",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "benchmark": "node dist/bench/bench.js"
+  },
+  "author": "piman51277",
+  "license": "MIT",
+  "dependencies": {
+    "tf2-item-format": "^5.9.0",
+    "tf2-static-schema": "^1.49.0"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "benchmark": "^2.1.4",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
+  }
+}
